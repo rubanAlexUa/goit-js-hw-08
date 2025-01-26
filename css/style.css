@@ -1,0 +1,35 @@
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.gallery {
+  max-width: 1128px;
+  margin: 24px auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+.modal {
+  height: 640px;
+  width: 1112px;
+  margin: 24px;
+  background-color: white;
+}
